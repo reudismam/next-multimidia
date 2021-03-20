@@ -1,11 +1,12 @@
 .email {
-    width: 30vw;
-    height: 5rem;
+    width: 60%;
+    height: 4rem;
     background-color: white;
     position: absolute;
-    bottom: -2.5rem;
+    bottom: -2rem;
     border-radius: 1rem;
     box-shadow: 0 0 30px rgba(225, 216, 207, 0.7);
+    margin: 0px;
   }
   
   .comece {
@@ -24,20 +25,22 @@
     color: #6a6a6a;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    max-width: 75%;
+    max-height: 100%;
   }
   
   .comece button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: #DB924B;
     color: #FFFFFF;
     border: 0;
     font-weight: bold;
-    padding: 5px 2rem;
+    margin: 5px;
+    padding: 5px 1rem;
     border-radius: 10px;
-    margin: 0.8rem;
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
-  }
-
-  .info {
-      margin-top: 400px;
+    max-width: 25%;
   }
